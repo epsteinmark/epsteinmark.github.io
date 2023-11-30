@@ -5,29 +5,6 @@
     --text-color: black;
 }
 
-/* Navigation Bar */
-/* Based on https://www.w3schools.com/howto/howto_js_topnav.asp */
-
-.topnav {
-  overflow: hidden;
-  background-color: var(--third-color);
-}
-
-.topnav a {
-    float: left;
-    color: var(--text-color);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-.topnav a.active {
-    background-color: var(--blue-color);
-    color: var(--text-color);
+body {
+  background-color: var(--pale-yellow);
 }

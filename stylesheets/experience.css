@@ -1,0 +1,43 @@
+:root {
+    --blue-color: #234E70;
+    --pale-yellow: #FBF8BE;
+    --third-color: #333;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--pale-yellow);
+}
+
+/* Taken from Benson's implementation https://github.com/bliutech/bliu.tech */
+.experience-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0.5rem 0;
+}
+
+.experience-wrapper {
+    width: 100%;
+}
+
+.experience-card > p {
+    max-width: 100%;
+    width: 100%;
+    overflow-wrap: break-word;
+    margin: 0;
+}
+
+.experience-wrapper > .Position {
+    flex-grow: 1;
+    float: left;
+    max-width: 52%;
+}
+
+.experience-wrapper > .Timeframe {
+    flex-grow: 1;
+    float: right;
+    text-align: right;
+    max-width: 45%;
+}
