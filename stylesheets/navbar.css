@@ -1,5 +1,7 @@
 :root {
     --blue-color: #234E70;
+    --primary-color: var(--blue-color);
+    --secondary-color: var(--pale-yellow);
     --pale-yellow: #FBF8BE;
     --third-color: #333;
     --text-color: black;
@@ -28,6 +30,6 @@
   }
 
 .topnav a.active {
-    background-color: var(--blue-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
 }
