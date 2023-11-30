@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /*margin: 0.5rem 0;*/
+    margin: 0.5rem 0;
 }
 
 .experience-wrapper {
@@ -30,15 +30,7 @@ body {
     max-width: 100%;
     width: 100%;
     overflow-wrap: break-word;
-    /*margin: 0;*/
-}
-
-.experience-card > p {
     margin: 0;
-}
-
-.experience-card {
-    margin: 0.5rem 0;
 }
 
 .experience-wrapper > .Position {
