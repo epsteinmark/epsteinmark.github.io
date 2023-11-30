@@ -4,7 +4,7 @@
     --primary-color: var(--blue-color);
     --secondary-color: var(--pale-yellow);
     --third-color: #333;
-    --text-color: white;
+    --text-color: var(--secondary-color);
 }
 
 /* Navigation Bar */
@@ -17,7 +17,7 @@
 
 .topnav a {
     float: left;
-    color: var(--text-color);
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,10 +26,10 @@
 
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: var(--text-color);
   }
 
 .topnav a.active {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
 }

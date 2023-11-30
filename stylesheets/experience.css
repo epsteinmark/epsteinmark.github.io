@@ -6,11 +6,10 @@
     --primary-color: var(--blue-color);
     --secondary-color: var(--pale-yellow);
     --third-color: #333;
-    --text-color: white;
+    --text-color: black;
 }
 
 body {
-    background-color: var(--primary-color);
     color: var(--text-color);
 }
 
